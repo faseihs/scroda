@@ -1,0 +1,17 @@
+/* 
+* ---------------------------------
+* Custom Style for Scroda Dashboard
+* ---------------------------------
+*/
+
+/* -- Top Logo -- */
+.site-logo .site-brand img{
+    max-width: 171px;
+    height: auto;
+    width: 100%;
+}
+
+/* -- User Content -- */
+.dashboard-token{
+    margin-bottom: 30px;
+}
