@@ -174,7 +174,7 @@
                         <img src="{{asset('dashboard/images/user-thumb-lg.png')}}" alt="thumb">
                     </div>
                     <h6 class="user-name">{{Auth::user()->name}}</h6>
-                    {{-- <div class="user-uid">Unique ID: <span>IXIA1A105</span></div>--}}
+                     <div class="user-uid">Unique ID: <span>{{Auth::user()->id}}</span></div>
                     {{--<ul class="btn-grp guttar-10px">
                         <li><a href="#" class="btn btn-xs btn-warning">Confirm Email</a></li>
                     </ul>--}}

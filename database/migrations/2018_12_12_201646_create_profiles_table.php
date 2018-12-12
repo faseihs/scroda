@@ -17,7 +17,7 @@ class CreateProfilesTable extends Migration
             $table->increments('id');
             $table->bigInteger('contact')->nullable();
             $table->longText('address')->nullable();
-            $table->unsignedInteger('user_id');
+            $table->string('user_id');
             $table->foreign('user_id')
                 ->references('id')->on('users')
                 ->onDelete('cascade');
