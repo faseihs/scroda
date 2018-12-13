@@ -30,4 +30,14 @@ class User extends Authenticatable
 
 
     public $incrementing = false;
+
+
+
+    public function addressRequest(){
+        return $this->hasOne('App\Model\Address')->where('status',0);
+    }
+
+    public function address(){
+        return $this->hasOne('App\Model\Address')->where('status',1);
+    }
 }

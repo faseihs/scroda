@@ -19,7 +19,7 @@ class CreateAddressesTable extends Migration
             $table->foreign('user_id')
                 ->references('id')->on('users')
                 ->onDelete('cascade');
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->timestamps();
         });
     }

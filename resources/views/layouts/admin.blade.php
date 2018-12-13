@@ -125,7 +125,7 @@
                                     <h6 class="user-dropdown-name">{{Auth::user()->name}}{{--<span>(IXIA1A105)</span>--}}</h6>
                                     <span class="user-dropdown-email">{{Auth::user()->name}}</span>
                                 </div>
-                                <div class="user-dropdown-balance">
+                                {{--<div class="user-dropdown-balance">
                                     <h6>ICO TOKEN BALANCE</h6>
                                     <h3>120,000,000 IC0X</h3>
                                     <ul>
@@ -133,11 +133,11 @@
                                         <li>19.043 ETH</li>
                                         <li>6,500.13 USD</li>
                                     </ul>
-                                </div>
+                                </div>--}}
                                 <ul class="user-dropdown-links">
-                                    <li><a href="account.html"><i class="ti ti-id-badge"></i>My Profile</a></li>
-                                    <li><a href="security.html"><i class="ti ti-lock"></i>Security</a></li>
-                                    <li><a href="activity.html"><i class="ti ti-eye"></i>Activity</a></li>
+                                    <li><a href="#"><i class="ti ti-id-badge"></i>My Profile</a></li>
+                                    <li><a href="#"><i class="ti ti-lock"></i>Security</a></li>
+                                    <li><a href="#"><i class="ti ti-eye"></i>Activity</a></li>
                                 </ul>
                                 <ul class="user-dropdown-links">
                                     <li>
@@ -200,7 +200,7 @@
                     <div class="gaps-1x"></div>
                     <ul class="topbar-action-list">
                         <li class="topbar-action-item topbar-action-link">
-                            <a href="#"><em class="ti ti-home"></em> Go to main site</a>
+                            <a href="/"><em class="ti ti-home"></em> Go to main site</a>
                         </li><!-- .topbar-action-item -->
                         <li class="dropup topbar-action-item topbar-action-language">
                             <a href="#" data-toggle="dropdown" aria-haspopup="true"> EN <em class="ti ti-angle-up"></em> </a>
