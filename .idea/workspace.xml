@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7229c909-fc2b-4776-bc49-f093c06ce247" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/InitialSeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/InitialSeed.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,23 +43,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitialSeed.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InitialSeed.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/InitialSeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -89,18 +98,6 @@
               <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
               <folding>
                 <element signature="e#47#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AddressController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
-              <folding>
-                <element signature="e#46#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +173,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/common/conversion.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/database/seeds/InitialSeed.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/InitialSeed.php" />
       </list>
     </option>
   </component>
@@ -376,7 +373,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;Addres&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="Reg&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Http/Controllers/Auth/RegisterController.php&#10;we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;Addres&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -413,12 +410,12 @@
       <workItem from="1544642978394" duration="9029000" />
       <workItem from="1544727570883" duration="10213000" />
       <workItem from="1544807815067" duration="40000" />
-      <workItem from="1544871756945" duration="275000" />
+      <workItem from="1544871756945" duration="700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19557000" />
+    <option name="totallyTimeSpent" value="19982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -667,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -770,20 +760,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/InitialSeed.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="388">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/InitialSeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Ramsey\Uuid\Uuid;
 
 class InitialSeed extends Seeder
 {
@@ -14,6 +15,7 @@ class InitialSeed extends Seeder
     {
         //
         DB::table('users')->insert([
+            'id'=>Uuid::uuid4(),
             'name' =>'Admin Test',
             'email' => 'admin@test.com',
             'password' => bcrypt('admin123'),
@@ -21,6 +23,7 @@ class InitialSeed extends Seeder
         ]);
 
         DB::table('users')->insert([
+            'id'=>Uuid::uuid4(),
             'name' =>'Client Test',
             'email' => 'client@test.com',
             'password' => bcrypt('client123'),
