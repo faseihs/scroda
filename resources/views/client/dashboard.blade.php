@@ -71,7 +71,7 @@
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="payeth" name="payOption" value="tranxETH" checked>
                             <label for="payeth">
-                                <div class="payment-icon payment-icon-eth"><img src="images/icon-ethereum.png" alt="icon"></div>
+                                <div class="payment-icon payment-icon-eth"><img src="{{asset('dashboard/images/icon-ethereum.png')}}" alt="icon"></div>
                                 <span class="payment-cur">Ethereum</span>
                             </label>
                             <span>@ 0.1 ETH</span>
@@ -81,7 +81,7 @@
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="paylightcoin" name="payOption" value="tranxLTC">
                             <label for="paylightcoin">
-                                <div class="payment-icon payment-icon-ltc"><img class="payment-icon" src="images/icon-lightcoin.png" alt="icon"></div>
+                                <div class="payment-icon payment-icon-ltc"><img class="payment-icon" src="{{asset('dashboard/images/icon-lightcoin.png')}}" alt="icon"></div>
                                 <span class="payment-cur">Litecoin</span>
                             </label>
                             <span>@ 0.1 LTC</span>
