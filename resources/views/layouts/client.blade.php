@@ -125,7 +125,7 @@
                                     <h6 class="user-dropdown-name">{{Auth::user()->name}}{{--<span>(IXIA1A105)</span>--}}</h6>
                                     <span class="user-dropdown-email">{{Auth::user()->name}}</span>
                                 </div>
-                                {{--<div class="user-dropdown-balance">
+                                <div class="user-dropdown-balance">
                                     <h6>ICO TOKEN BALANCE</h6>
                                     <h3>120,000,000 IC0X</h3>
                                     <ul>
@@ -133,7 +133,7 @@
                                         <li>19.043 ETH</li>
                                         <li>6,500.13 USD</li>
                                     </ul>
-                                </div>--}}
+                                </div>
                                 <ul class="user-dropdown-links">
                                     <li><a href="#"><i class="ti ti-id-badge"></i>My Profile</a></li>
                                     <li><a href="#"><i class="ti ti-lock"></i>Security</a></li>
@@ -175,19 +175,17 @@
                     </div>
                     <h6 class="user-name">{{Auth::user()->name}}</h6>
                      <div class="user-uid">Unique ID: <span>{{Auth::user()->id}}</span></div>
-                    {{--<ul class="btn-grp guttar-10px">
+                    <ul class="btn-grp guttar-10px">
                         <li><a href="#" class="btn btn-xs btn-warning">Confirm Email</a></li>
-                    </ul>--}}
+                    </ul>
                 </div><!-- .user-box -->
                 <ul class="user-icon-nav">
                     <li><a href="/client/dashboard"><em class="ti ti-dashboard"></em>Dashboard</a></li>
                     <li><a href="/common/conversion"><em class="ti ti-stats-up"></em>Conversion Tool</a></li>
-
-
-                    {{--<li><a href="transactions.html"><em class="ti ti-control-shuffle"></em>Transactions</a></li>
-                    <li><a href="referrals.html"><em class="ti ti-infinite"></em>Referral</a></li>
-                    <li><a href="account.html"><em class="ti ti-user"></em>Account</a></li>
-                    <li><a href="security.html"><em class="ti ti-lock"></em>Security</a></li>--}}
+                    <li><a href="/dashboard/transactions.html"><em class="ti ti-control-shuffle"></em>Transactions</a></li>
+                    <li><a href="/dashboard/referrals.html"><em class="ti ti-infinite"></em>Referral</a></li>
+                    <li><a href="/dashboard/account.html"><em class="ti ti-user"></em>Account</a></li>
+                    <li><a href="/dashboard/security.html"><em class="ti ti-lock"></em>Security</a></li>
                 </ul><!-- .user-icon-nav -->
                 <div class="user-sidebar-sap"></div><!-- .user-sidebar-sap -->
                 <ul class="user-nav">
@@ -218,6 +216,7 @@
             <div class="user-content">
                 <div class="user-panel">
                     @yield('content')
+
                 </div><!-- .user-panel -->
             </div><!-- .user-content -->
         </div><!-- .d-flex -->
