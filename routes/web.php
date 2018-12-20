@@ -13,7 +13,7 @@
 
 Route::get('/','WelcomeController@index')->name('welcome');
 
-Auth::routes();
+Auth::routes(['verify'=>'true']);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -24,7 +24,7 @@ Route::get('/clear-cache', function() {
     return 'DONE'; //Return anything
 });
 
-Route::group(['prefix'=>'client','middleware'=>'client'],function (){
+Route::group(['prefix'=>'client','middleware'=>['client','verified']],function (){
     Route::get('dashboard','Client\DashboardController@index');
     Route::get('subscribe','Client\DashboardController@subscribe');
     Route::get('unsubscribe','Client\DashboardController@unsubscribe');

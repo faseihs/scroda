@@ -58,10 +58,12 @@
                                     <li>6,500.13 USD</li>
                                 </ul>
                             </div>
-                            {{-- <ul class="user-dropdown-btns btn-grp guttar-10px">
-                                 <li><a href="#" class="btn btn-xs btn-warning">Confirm Email</a></li>
-                                 <li><a href="kyc.html" class="btn btn-xs btn-warning">KYC Pending</a></li>
-                             </ul>--}}
+                           {{-- @if(!Auth::user()->email_verified_at)
+                             <ul class="user-dropdown-btns btn-grp guttar-10px">
+                                 <li><a href="{{ route('verification.resend') }}" class="btn btn-xs btn-warning">Confirm Email</a></li>
+                                 --}}{{--<li><a href="kyc.html" class="btn btn-xs btn-warning">KYC Pending</a></li>--}}{{--
+                             </ul>
+                            @endif--}}
                             <div class="gaps-1x"></div>
                             <ul class="user-dropdown-links">
                                 <li><a href="account.html"><i class="ti ti-id-badge"></i>My Profile</a></li>
@@ -175,9 +177,9 @@
                     </div>
                     <h6 class="user-name">{{Auth::user()->name}}</h6>
                      <div class="user-uid">Unique ID: <span>{{Auth::user()->id}}</span></div>
-                    <ul class="btn-grp guttar-10px">
+                    {{--<ul class="btn-grp guttar-10px">
                         <li><a href="#" class="btn btn-xs btn-warning">Confirm Email</a></li>
-                    </ul>
+                    </ul>--}}
                 </div><!-- .user-box -->
                 <ul class="user-icon-nav">
                     <li><a href="/client/dashboard"><em class="ti ti-dashboard"></em>Dashboard</a></li>
