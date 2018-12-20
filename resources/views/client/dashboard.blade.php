@@ -260,13 +260,17 @@
                             </div>
                             <hr>
                         @endif
+                        @if(Auth::user()->address)
 
-                        <div class="tranx-payment-info">
-                            <span class="tranx-copy-feedback copy-feedback"></span>
-                            <em class="fab fa-ethereum"></em>
-                            <input type="text" class="tranx-payment-address copy-address" value="0x4156d3342d5c385a87d264f90653733592000581" disabled>
-                            <a href="#" class="tranx-payment-copy copy-trigger"><em class="ti ti-files"></em></a>
-                        </div><!-- .tranx-payment-info -->
+                            <div class="tranx-payment-info">
+                                <span class="tranx-copy-feedback copy-feedback"></span>
+                                <em class="fab fa-ethereum"></em>
+                                <input type="text" class="tranx-payment-address copy-address" value="{{Auth::user()->address->name}}" disabled>
+                                <a href="#" class="tranx-payment-copy copy-trigger"><em class="ti ti-files"></em></a>
+                            </div><!-- .tranx-payment-info -->
+                        @endif
+
+
                         <ul class="tranx-info-list">
                             <li><span>SET GAS LIMIT:</span> 120 000</li>
                             <li><span>SET GAS PRICE:</span> 95 Gwei</li>
