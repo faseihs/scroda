@@ -39,7 +39,7 @@ Route::group(['prefix'=>'client','middleware'=>'client'],function (){
         return view('client.account') ;
     });
     Route::get('security',function (){
-        return view('client.git security') ;
+        return view('client.security') ;
     });
 });
 

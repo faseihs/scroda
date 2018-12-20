@@ -90,7 +90,7 @@
                                     <label for="exampleInputPassword1">Password</label>
                                     <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                 </div>
-                                <p><a href="#">Forgot Password?</a></p>
+                                <p><a href="/password/reset">Forgot Password?</a></p>
                                 <button type="submit" class="btn btn-default btn-signup-modal">Submit</button>
                             </form>
                         </div>

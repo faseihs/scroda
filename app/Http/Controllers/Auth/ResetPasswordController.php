@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Request;
 
 class ResetPasswordController extends Controller
 {
@@ -25,7 +27,11 @@ class ResetPasswordController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected function redirectTo(){
+        if(Auth::user()->role_id==1)
+            return '/admin/dashboard';
+        else return '/client/dashboard';
+    }
 
     /**
      * Create a new controller instance.
@@ -36,4 +42,13 @@ class ResetPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+
+
+    public function showResetForm(Request $request, $token = null)
+    {
+        return view('common.recovery.password')->with(
+            ['token' => $token]
+        );
+    }
 }
+
