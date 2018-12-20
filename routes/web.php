@@ -29,6 +29,18 @@ Route::group(['prefix'=>'client','middleware'=>'client'],function (){
     Route::get('subscribe','Client\DashboardController@subscribe');
     Route::get('unsubscribe','Client\DashboardController@unsubscribe');
     Route::get('address-request','Client\DashboardController@addressRequest');
+    Route::get('transaction',function (){
+       return view('client.transaction') ;
+    });
+    Route::get('referral',function (){
+        return view('client.referral') ;
+    });
+    Route::get('account',function (){
+        return view('client.account') ;
+    });
+    Route::get('security',function (){
+        return view('client.git security') ;
+    });
 });
 
 

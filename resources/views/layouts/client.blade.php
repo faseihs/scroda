@@ -182,10 +182,10 @@
                 <ul class="user-icon-nav">
                     <li><a href="/client/dashboard"><em class="ti ti-dashboard"></em>Dashboard</a></li>
                     <li><a href="/common/conversion"><em class="ti ti-stats-up"></em>Conversion Tool</a></li>
-                    <li><a href="/dashboard/transactions.html"><em class="ti ti-control-shuffle"></em>Transactions</a></li>
-                    <li><a href="/dashboard/referrals.html"><em class="ti ti-infinite"></em>Referral</a></li>
-                    <li><a href="/dashboard/account.html"><em class="ti ti-user"></em>Account</a></li>
-                    <li><a href="/dashboard/security.html"><em class="ti ti-lock"></em>Security</a></li>
+                    <li><a href="/client/transactions"><em class="ti ti-control-shuffle"></em>Transactions</a></li>
+                    <li><a href="/client/referrals"><em class="ti ti-infinite"></em>Referral</a></li>
+                    <li><a href="/client/account"><em class="ti ti-user"></em>Account</a></li>
+                    <li><a href="/client/security"><em class="ti ti-lock"></em>Security</a></li>
                 </ul><!-- .user-icon-nav -->
                 <div class="user-sidebar-sap"></div><!-- .user-sidebar-sap -->
                 <ul class="user-nav">
