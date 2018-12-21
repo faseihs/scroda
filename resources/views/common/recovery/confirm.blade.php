@@ -37,7 +37,7 @@
                             An email has been sent to your email address
                         </div>
                     @endif
-                    <a class="btn btn-primary" href="{{ route('verification.resend') }}">{{ __('click here to request another') }}</a>.
+                    <a class="btn btn-primary" href="{{ route('verification.resend') }}">{{ __('Click here to send verification email') }}</a>.
                 </div>
                 <div class="gaps-2x"></div>
                 <div class="form-note">

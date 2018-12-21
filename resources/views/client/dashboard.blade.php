@@ -316,7 +316,7 @@
             $('#paymentGet').on('keyup',function () {
                 if($(this).val()!='') {
                     var amount = parseInt($(this).val());
-                    var result = amount / 100;
+                    var result = amount / 2;
                     $('#paymentFrom').val(parseFloat(result).toPrecision(2));
                 }
 
@@ -328,7 +328,7 @@
             $('#paymentFrom').on('keyup',function () {
                 if($(this).val()!='') {
                     var amount = parseInt($(this).val());
-                    var result = amount * 100;
+                    var result = amount * 2;
                     $('#paymentGet').val(result);
 
                 }

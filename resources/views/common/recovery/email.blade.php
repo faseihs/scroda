@@ -57,13 +57,13 @@
                         <div class="gaps"></div>
                         <div class="d-flex justify-content-between align-items-center">
                             <button class="btn btn-primary">Reset</button>
-                            <span> <a href="login.html" class="simple-link"><em class="ti ti-arrow-right"></em> Login Here</a></span>
+                            <span> <a href="/login" class="simple-link"><em class="ti ti-arrow-right"></em> Login Here</a></span>
                         </div>
                     </form>
                 </div>
                 <div class="gaps-2x"></div>
                 <div class="form-note">
-                    Not a member? <a href="signup.html">Sign up now</a>
+                    Not a member? <a href="/register">Sign up now</a>
                 </div>
             </div>
         </div>
