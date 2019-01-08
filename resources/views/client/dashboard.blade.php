@@ -188,7 +188,7 @@
         </div>
         <div class="token-countdown">
             <span class="token-countdown-title">THE BONUS END IN</span>
-            <div class="token-countdown-clock" data-date="2018/09/05"></div>
+            <div class="token-countdown-clock" data-date="2019/02/14"></div>
         </div>
     </div><!-- .token-card -->
     <div class="progress-card">

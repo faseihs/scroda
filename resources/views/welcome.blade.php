@@ -231,28 +231,35 @@
                                 <br>
                                 get 25% Bonus!
                             </p>
+                            @php
+
+                            $start_date = new DateTime();
+                            $end_date= new DateTime('2019-02-14');
+                            $interval = $start_date->diff($end_date);
+
+                            @endphp
                             <div class="expiry-time">
                                 <div class="expiry-item">
                                     <p class="date mb-5px">
-                                        -7
+                                        {{$interval->format('%a')}}
                                     </p>
                                     <p>Days</p>
                                 </div>
                                 <div class="expiry-item">
                                     <p class="date mb-5px">
-                                        11
+                                        {{$interval->format('%h')}}
                                     </p>
                                     <p>Hours</p>
                                 </div>
                                 <div class="expiry-item">
                                     <p class="date mb-5px">
-                                        37
+                                        {{$interval->format('%i')}}
                                     </p>
                                     <p>Mins</p>
                                 </div>
                                 <div class="expiry-item">
                                     <p class="date mb-5px">
-                                        -9
+                                        {{$interval->format('%s')}}
                                     </p>
                                     <p>Sec</p>
                                 </div>
