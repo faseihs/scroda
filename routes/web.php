@@ -12,6 +12,7 @@
 */
 
 Route::get('/','WelcomeController@index')->name('welcome');
+Route::get('/test','WelcomeController@test')->name('test');
 
 Auth::routes(['verify'=>'true']);
 
@@ -28,7 +29,7 @@ Route::group(['prefix'=>'client','middleware'=>['client','verified']],function (
     Route::get('dashboard','Client\DashboardController@index');
     Route::get('subscribe','Client\DashboardController@subscribe');
     Route::get('unsubscribe','Client\DashboardController@unsubscribe');
-    Route::get('address-request','Client\DashboardController@addressRequest');
+    Route::get('address-request/{cc}','Client\DashboardController@addressRequest');
     Route::get('transaction',function (){
        return view('client.transaction') ;
     });

@@ -9,7 +9,11 @@ class WelcomeController extends Controller
 {
     //
 
-    public function index(){
+    public function test(){
         return Response::view('welcome')->header('Cache-Control', 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+    }
+
+    public function index(){
+        return view('wel');
     }
 }

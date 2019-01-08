@@ -2,6 +2,10 @@
 
 namespace App;
 
+
+
+
+use DebugBar\DebugBar;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -39,5 +43,17 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function address(){
         return $this->hasOne('App\Model\Address')->where('status',1);
+    }
+
+
+    public function findAddress($id,$str){
+        $cc= Cryptocurrency::where('short',$str)->first();
+
+        if(!$cc)
+            return false;
+
+        $address=$cc->addresses()->where('user_id',$id)->first();
+        \Debugbar::info($address);
+        return $address;
     }
 }

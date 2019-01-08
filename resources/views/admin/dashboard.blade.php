@@ -13,7 +13,9 @@
                     <thead>
                     <tr>
                         <th>Name</th>
+                        <th>Currency</th>
                         <th>Address</th>
+
                         <th>Approve</th>
                     </tr>
                     </thead>
@@ -21,6 +23,7 @@
                     @foreach($requests as $index=> $request)
                         <tr>
                             <td>{{$request->user->name}}</td>
+                            <td>{{$request->cryptocurrency->name}}</td>
 
                             <td>
 
@@ -53,4 +56,9 @@
             @endif
         </div>
     </div>
+    <style>
+        .form-control{
+            font-size: 12px;
+        }
+    </style>
 @endsection

@@ -12,4 +12,8 @@ class Address extends Model
     public function user(){
         return $this->belongsTo('App\User');
     }
+    
+    public function cryptocurrency(){
+        return $this->belongsTo('App\CryptoCurrency');
+    }
 }

@@ -22,6 +22,7 @@
 
 
 <body>
+	@include('includes.errors')
 
 <a href="#slider-section" class="scrolltotop"><span class="ti-angle-double-up"></span> </a>
 
