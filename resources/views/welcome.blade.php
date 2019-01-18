@@ -224,7 +224,7 @@
                 </div>
                 <div class="col-md-5 col-sm-12">
                     <div class="hero-token-phase">
-                        <div class="token-phase-wrapper t-align-center">
+                        <div class="token-phase-wrapper t-align-center" id="clock-div">
                             <p class="token-title mb-15px">Token Sale Phase</p>
                             <p class="fs-30px fw-600 mb-25px">
                                 <span class="text-purple">Buy Now</span>
@@ -240,25 +240,23 @@
                             @endphp
                             <div class="expiry-time">
                                 <div class="expiry-item">
-                                    <p class="date mb-5px">
-                                        {{$interval->format('%a')}}
-                                    </p>
+                                    <p class="date mb-5px days">{{$interval->format('%a')}}</p>
                                     <p>Days</p>
                                 </div>
                                 <div class="expiry-item">
-                                    <p class="date mb-5px">
+                                    <p class="date mb-5px hours">
                                         {{$interval->format('%h')}}
                                     </p>
                                     <p>Hours</p>
                                 </div>
                                 <div class="expiry-item">
-                                    <p class="date mb-5px">
+                                    <p class="date mb-5px minutes">
                                         {{$interval->format('%i')}}
                                     </p>
                                     <p>Mins</p>
                                 </div>
                                 <div class="expiry-item">
-                                    <p class="date mb-5px">
+                                    <p class="date mb-5px seconds">
                                         {{$interval->format('%s')}}
                                     </p>
                                     <p>Sec</p>
