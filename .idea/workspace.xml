@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7229c909-fc2b-4776-bc49-f093c06ce247" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/database/seeds/CryptoCurrencySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CryptoCurrencySeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dashboard/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dashboard/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/client_new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/client_new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Notifications/VerifyEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/VerifyEmail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,20 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="2688" column="21" lean-forward="true" selection-start-line="2688" selection-start-column="21" selection-end-line="2688" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="welcome_new.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome_new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,11 +52,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wel.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/wel.blade.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="246">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyEmail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Notifications/VerifyEmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+              <folding>
+                <element signature="e#35#64#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,11 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/client/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="120" column="50" lean-forward="true" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+              <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="68" column="5" selection-start-line="65" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <element signature="e#26#48#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,25 +125,7 @@
         <entry file="file://$PROJECT_DIR$/public/dashboard/assets/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="policy.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/policy.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -171,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_12_210103_add_status_to_addresses.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_12_215616_change_id_of_users.php" />
@@ -210,9 +213,6 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/countdown.js" />
         <option value="$PROJECT_DIR$/public/dashboard/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Notifications/VerifyEmail.php" />
         <option value="$PROJECT_DIR$/public/styles.css" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
@@ -222,6 +222,10 @@
         <option value="$PROJECT_DIR$/public/dashboard/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/database/seeds/CryptoCurrencySeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Notifications/VerifyEmail.php" />
       </list>
     </option>
   </component>
@@ -449,14 +453,15 @@
               <item name="scroda" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scroda" type="b2602c69:ProjectViewProjectNode" />
               <item name="scroda" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="notifications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scroda" type="b2602c69:ProjectViewProjectNode" />
@@ -470,7 +475,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="das&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;User.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;welcom&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/welcome.blade.php&#10;wel&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;clie&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;Addr&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;Addres&#9;null&#9;null&#10;add&#9;null&#9;null&#10;create_c&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2019_01_08_061749_create_cryptocurrencies_table.php&#10;we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;Verify&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;web.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;showReset&#9;null&#9;null&#10;tokens&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;tokens.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;cli&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Reg&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Http/Controllers/Auth/RegisterController.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="Use&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;.en&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/.env&#10;das&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;User.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;welcom&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/welcome.blade.php&#10;wel&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;clie&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Addr&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;Addres&#9;null&#9;null&#10;add&#9;null&#9;null&#10;create_c&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2019_01_08_061749_create_cryptocurrencies_table.php&#10;we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;Verify&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;web.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;showReset&#9;null&#9;null&#10;tokens&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;tokens.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;cli&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Reg&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Http/Controllers/Auth/RegisterController.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -516,12 +521,12 @@
       <workItem from="1547129319858" duration="3298000" />
       <workItem from="1547809455963" duration="1202000" />
       <workItem from="1547925170512" duration="2023000" />
-      <workItem from="1548098351343" duration="2752000" />
+      <workItem from="1548098351343" duration="4231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51370000" />
+    <option name="totallyTimeSpent" value="52849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -533,7 +538,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.1525974" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.14448053" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28895614" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -556,13 +561,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/theme/dashboard/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="314" column="51" lean-forward="true" selection-start-line="193" selection-start-column="24" selection-end-line="314" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/client/account.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -790,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3772">
@@ -806,23 +797,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notifications/VerifyEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#35#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/client.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/public/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="2688" column="21" lean-forward="true" selection-start-line="2688" selection-start-column="21" selection-end-line="2688" selection-end-column="21" />
+          <caret line="2688" column="21" selection-start-line="2688" selection-start-column="21" selection-end-line="2688" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -876,7 +850,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/welcome_new.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -907,7 +881,7 @@
     <entry file="file://$PROJECT_DIR$/public/dashboard/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -921,7 +895,41 @@
     <entry file="file://$PROJECT_DIR$/resources/views/client/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="120" column="50" lean-forward="true" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+          <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="68" column="5" selection-start-line="65" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#26#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Notifications/VerifyEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+          <folding>
+            <element signature="e#35#64#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
