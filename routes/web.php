@@ -12,6 +12,7 @@
 */
 
 Route::get('/','WelcomeController@index')->name('welcome');
+Route::get('/policy','WelcomeController@privacyPolicy')->name('policy');
 Route::get('/test','WelcomeController@test')->name('test');
 
 Auth::routes(['verify'=>'true']);

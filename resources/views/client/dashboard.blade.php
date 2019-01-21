@@ -1,4 +1,4 @@
-@extends('layouts.client')
+@extends('layouts.client_new')
 
 
 
@@ -527,7 +527,11 @@
                 if($(this).val()!='') {
                     var amount = parseInt($(this).val());
                     var result = amount / 2;
-                    $('#paymentFrom').val(parseFloat(result).toPrecision(2));
+                    //console.log(result);
+                    $('#paymentFrom').val(result);
+                }
+                else{
+                    $('#paymentFrom').val(0);
                 }
 
             });
@@ -541,6 +545,9 @@
                     var result = amount * 2;
                     $('#paymentGet').val(result);
 
+                }
+                else {
+                    $('#paymentGet').val(0);
                 }
 
             });

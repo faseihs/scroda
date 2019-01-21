@@ -14,6 +14,10 @@ class WelcomeController extends Controller
     }
 
     public function index(){
-        return view('welcome');
+        return view('welcome_new');
+    }
+
+    public function privacyPolicy(){
+        return view('policy');
     }
 }
