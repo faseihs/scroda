@@ -65,9 +65,9 @@
         <form action="#">
             <h5 class="user-panel-subtitle">01. Select the payment method and calculate token price</h5>
             <div class="gaps-1x"></div>
-            <div class="payment-list">
+            <div class="payment-list token-price">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="token-price-item">
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="payeth" name="payOption" value="ETH" checked>
                             <label for="payeth">
@@ -77,7 +77,7 @@
                             <span>@ 0.1 ETH</span>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-md-3 col-sm-6">
+                    <div class="token-price-item">
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="paylightcoin" name="payOption" value="LTC">
                             <label for="paylightcoin">
@@ -87,7 +87,7 @@
                             <span>@ 0.1 LTC</span>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-md-3 col-sm-6">
+                    <div class="token-price-item">
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="paybtc" name="payOption" value="BTC">
                             <label for="paybtc">
@@ -97,12 +97,32 @@
                             <span>@ 0.05 BTC</span>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-md-3 col-sm-6">
+                    {{--<div class="col-md-3 col-sm-6">
                         <div class="payment-item">
                             <input class="payment-check" type="radio" id="payusd" name="payOption" value="USD">
                             <label for="payusd">
                                 <div class="payment-icon payment-icon-usd"><em class="payment-icon fas fa-credit-card"></em></div>
                                 <span class="payment-cur">US Dollar</span>
+                            </label>
+                            <span>@ 0.5 USD</span>
+                        </div>
+                    </div><!-- .col -->--}}
+                    <div class="token-price-item">
+                        <div class="payment-item">
+                            <input class="payment-check" type="radio" id="paymonero" name="payOption" value="MON">
+                            <label for="paymonero">
+                                <div class="payment-icon payment-icon-usd"><em class="payment-icon pay-custom-icon pay-monero-icon"></em></div>
+                                <span class="payment-cur">Monero</span>
+                            </label>
+                            <span>@ 0.5 USD</span>
+                        </div>
+                    </div><!-- .col -->
+                    <div class="token-price-item">
+                        <div class="payment-item">
+                            <input class="payment-check" type="radio" id="paydash" name="payOption" value="DAS">
+                            <label for="paydash">
+                                <div class="payment-icon payment-icon-usd"><em class="payment-icon pay-custom-icon pay-dash-icon"></em></div>
+                                <span class="payment-cur">Dash</span>
                             </label>
                             <span>@ 0.5 USD</span>
                         </div>
@@ -515,6 +535,145 @@
         </div><!-- .modal-dialog -->
     </div>
     <!-- Modal End -->
+    <!-- Modal Start MON-->
+    <div class="modal fade" id="MON" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="tranx-popup">
+                    <h5>Purchase Details MON</h5>
+                    <form action="">
+                        <input id="selectedCC" name="selectedCC" value="" type="hidden">
+                        <div class="tranx-payment-details">
+                            <p>Hi, Your transaction <strong>ICIYOW0102</strong> is <strong>Pending Payment</strong><br> You will receive <strong>5,470 ICOX</strong> tokens (incl. bonus of 450 ICOX) once paid.</p>
+                            <h6>Please make your Payment to the bellow Address</h6>
+                            {{--@if(!Auth::user()->address && !Auth::user()->addressRequest)--}}
+                            @if(! Auth::user()->findAddress(Auth::user()->id,'MON'))
+                                <div style="margin-top: 16px;" class="col-md-12 text-center MON">
+                                    <a class="btn btn-secondary btn-block" href="/client/address-request/USD"><i class="ti ti-envelope"></i> Request for Address </a>
+                                </div>
+                                <hr>
+                            @endif
+                            @if($address=Auth::user()->findAddress(Auth::user()->id,'MON'))
+                                @if($address->status==0)
+                                    <div class="alert alert-warning">Address Request Waiting for Approval</div>
+                                @else
+                                    <div class="tranx-payment-info ETH">
+                                        <span class="tranx-copy-feedback copy-feedback"></span>
+                                        <em class="fab fa-ethereum"></em>
+                                        <input type="text" class="tranx-payment-address copy-address" value="{{$address->name}}" disabled>
+                                        <a href="#" class="tranx-payment-copy copy-trigger"><em class="ti ti-files"></em></a>
+                                    </div><!-- .tranx-payment-info -->
+                                @endif
+                            @endif
+
+
+
+                            <ul class="tranx-info-list">
+                                <li><span>SET GAS LIMIT:</span> 120 000</li>
+                                <li><span>SET GAS PRICE:</span> 95 Gwei</li>
+                            </ul><!-- .tranx-info-list -->
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="tranx-info-qr">
+                                        <span>OR Scan bellow QR Code to pay</span>
+                                        <img class="tranx-info-qrimg" src="images/eth-qr.png" alt="qr">
+                                        <div class="gaps-4x"></div>
+                                        <ul class="btn-grp guttar-20px">
+                                            <li><a href="#" class="btn btn-primary pay-done">I want this token</a></li>
+                                            <li><a href="#" class="btn btn-xs btn-uline btn-uline-danger" data-dismiss="modal">I Don't Want This</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-sm-7">
+                                    <div class="note note-info">
+                                        <em class="fas fa-info-circle"></em>
+                                        <p>Do not make payment through exchange (Kraken, Bitfinex). You can use MetaMask, MayEtherWallet, Mist wallets etc.</p>
+                                    </div>
+                                    <div class="gaps-1x"></div>
+                                    <div class="note note-danger">
+                                        <em class="fas fa-info-circle"></em>
+                                        <p>In case you send a different amount ETH, the number of ICOX tokens will update accordingly.</p>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .tranx-payment-details -->
+                    </form>
+                </div><!-- .tranx-popup -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- Modal End -->
+
+
+    <!-- Modal End  DAS -->
+    <div class="modal fade" id="DAS" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="tranx-popup">
+                    <h5>Purchase Details DAS</h5>
+                    <form action="">
+                        <input id="selectedCC" name="selectedCC" value="" type="hidden">
+                        <div class="tranx-payment-details">
+                            <p>Hi, Your transaction <strong>ICIYOW0102</strong> is <strong>Pending Payment</strong><br> You will receive <strong>5,470 ICOX</strong> tokens (incl. bonus of 450 ICOX) once paid.</p>
+                            <h6>Please make your Payment to the bellow Address</h6>
+                            {{--@if(!Auth::user()->address && !Auth::user()->addressRequest)--}}
+                            @if(! Auth::user()->findAddress(Auth::user()->id,'DAS'))
+                                <div style="margin-top: 16px;" class="col-md-12 text-center ETH">
+                                    <a class="btn btn-secondary btn-block" href="/client/address-request/USD"><i class="ti ti-envelope"></i> Request for Address </a>
+                                </div>
+                                <hr>
+                            @endif
+                            @if($address=Auth::user()->findAddress(Auth::user()->id,'DAS'))
+                                @if($address->status==0)
+                                    <div class="alert alert-warning">Address Request Waiting for Approval</div>
+                                @else
+                                    <div class="tranx-payment-info ETH">
+                                        <span class="tranx-copy-feedback copy-feedback"></span>
+                                        <em class="fab fa-ethereum"></em>
+                                        <input type="text" class="tranx-payment-address copy-address" value="{{$address->name}}" disabled>
+                                        <a href="#" class="tranx-payment-copy copy-trigger"><em class="ti ti-files"></em></a>
+                                    </div><!-- .tranx-payment-info -->
+                                @endif
+                            @endif
+
+
+
+                            <ul class="tranx-info-list">
+                                <li><span>SET GAS LIMIT:</span> 120 000</li>
+                                <li><span>SET GAS PRICE:</span> 95 Gwei</li>
+                            </ul><!-- .tranx-info-list -->
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="tranx-info-qr">
+                                        <span>OR Scan bellow QR Code to pay</span>
+                                        <img class="tranx-info-qrimg" src="images/eth-qr.png" alt="qr">
+                                        <div class="gaps-4x"></div>
+                                        <ul class="btn-grp guttar-20px">
+                                            <li><a href="#" class="btn btn-primary pay-done">I want this token</a></li>
+                                            <li><a href="#" class="btn btn-xs btn-uline btn-uline-danger" data-dismiss="modal">I Don't Want This</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-sm-7">
+                                    <div class="note note-info">
+                                        <em class="fas fa-info-circle"></em>
+                                        <p>Do not make payment through exchange (Kraken, Bitfinex). You can use MetaMask, MayEtherWallet, Mist wallets etc.</p>
+                                    </div>
+                                    <div class="gaps-1x"></div>
+                                    <div class="note note-danger">
+                                        <em class="fas fa-info-circle"></em>
+                                        <p>In case you send a different amount ETH, the number of ICOX tokens will update accordingly.</p>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .tranx-payment-details -->
+                    </form>
+                </div><!-- .tranx-popup -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- Modal End -->
+
 
 
 @endsection

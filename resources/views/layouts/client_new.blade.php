@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="ICO Crypto is a modern and elegant landing page, created for ICO Agencies and digital crypto currency investment website.">
     <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="{{asset('dashboard/images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('dashboard/images/favicon.ico')}}">
     <!-- Site Title  -->
     <title>Client - SCRODA</title>
     <!-- Vendor Bundle CSS -->

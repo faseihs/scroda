@@ -15,3 +15,57 @@
 .dashboard-token{
     margin-bottom: 30px;
 }
+
+.token-price .token-price-item{
+    width: calc(100%/5);
+    padding: 0 10px;
+}
+.pay-custom-icon{
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.pay-monero-icon{
+    background-image: url(../../images/monero-symbol.png);
+}
+.pay-dash-icon{
+    background-image: url(../../images/dash-icon.png);
+}
+
+@media screen and (max-width: 767px){
+    .token-price .token-price-item label span{
+        display: none;
+    }
+    .token-price .payment-icon [class*=fa-]{
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 18px;
+    }
+    .token-price .payment-icon img{
+        width: 32px;
+    }
+    .pay-custom-icon{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .token-price .payment-item label{
+        padding: 15px 15px 5px;
+    }
+    .token-price .token-price-item{
+        width: auto;
+        display: inline-block;
+    }
+    .token-price .payment-item > span {
+        position: static;
+        margin-top: 2px;
+        transform: translateY(0);
+    }
+}

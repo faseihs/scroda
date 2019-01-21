@@ -29,5 +29,15 @@ class CryptoCurrencySeeder extends Seeder
             'name'=>'UD Dollar',
             'short'=>'USD'
         ]);
+
+        DB::table('cryptocurrencies')->insert([
+            'name'=>'Monero',
+            'short'=>'MON'
+        ]);
+
+        DB::table('cryptocurrencies')->insert([
+            'name'=>'Dash',
+            'short'=>'DAS'
+        ]);
     }
 }
