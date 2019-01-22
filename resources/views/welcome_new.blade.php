@@ -116,9 +116,9 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="checkboxes">
-                                        <input name="agree" required type="checkbox" id="agree"> I agree to Terms and Policy
+                                        <input name="agree" required type="checkbox" id="agree"> I agree to the Terms and Conditions
                                     </label>
-                                    <a target="_blank" class="btn btn-default" href="/policy">View Policy</a>
+                                    <a target="_blank" class="btn btn-default" href="/policy">View</a>
                                 </div>
                                 {{--<div class="form-group">
                                     <label class="checkboxes">
@@ -364,7 +364,7 @@
                     <div class="crypcash-left no-left sc-h-it-work mb-100px mt-80px">
                         <h2>How is the Scroda Platform achieving flawless privacy?</h2>
                         <div class="crypcash-content no-left">
-                            <p>Through thousands of hours dedicated to researching and analyzing the standings of current blockchain infrastructures and many failures, Scroda has been able to obtain its goal in evolving the current blockchain concept. The removal of <strong>third parties</strong> when <strong>routing transactions</strong> in order to <strong>maintain anonimity</strong>, requirement of <strong>one-time-use</strong> addreses, implementation of a <strong>mixing pool</strong> in order to <strong>merge funds</strong> from multiple <strong>one-time-use</strong> addresses ensures <strong>privacy</strong> and <strong>unlinkability</strong> in all transactions performed on the Scroda platform, thus surpassing current barriers in blockchain technology through the utilization of the mechanism found in colored coins the Scroda platform is able to categorize addresses into different <strong>Tier Levels</strong> based on the value stored in each address. Each Tier will implement a <strong>Time-Lock mechanism</strong> in where a specified time-frame will be set that restricts a address from conducting a transaction upon obtaining funds until its expiry in order to prevent abuse on the network of the Scroda platform.</p>
+                            <p>Through thousands of hours dedicated to researching and analyzing the standings of current blockchain infrastructures and many failures, Scroda has been able to obtain its goal in evolving the current blockchain concept. The removal of <strong>third parties</strong> when <strong>routing transactions</strong> in order to <strong>maintain anonimity</strong>, requirement of <strong>one-time-use</strong> addreses, implementation of a <strong>mixing pool</strong> in order to <strong>merge funds</strong> from multiple <strong>one-time-use</strong> addresses ensures <strong>privacy</strong> and <strong>unlinkability</strong> in all transactions performed on the Scroda platform, thus surpassing current barriers in blockchain technology. Through the utilization of the mechanism found in colored coins the Scroda platform is able to categorize addresses into different <strong>Tier Levels</strong> based on the value stored in each address. Each Tier will implement a <strong>Time-Lock mechanism</strong> in where a specified time-frame will be set that restricts a address from conducting a transaction upon obtaining funds until its expiry in order to prevent abuse on the network of the Scroda platform.</p>
                         </div>
                     </div>
                 </div>
@@ -1458,15 +1458,12 @@
     <div class="container">
         <div class="row boder-t">
             <div class="col-md-6 col-xs-12">
-                <p class="copy-rights">Copyright @ 2019 <a href="#">Scroda </a>all right resurved.</p>
+                <p class="copy-rights">Copyright 2019, Scroda Platform Ltd.  All Rights Reserved.</p>
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="footer-right text-right">
                     <ul class="list-inline">
-                        <li><a href="#">Home</a></li>
                         <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>

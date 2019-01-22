@@ -177,7 +177,6 @@
                 </div><!-- .user-box -->
                 <ul class="user-icon-nav">
                     <li><a href="/client/dashboard"><em class="ti ti-dashboard"></em>Dashboard</a></li>
-                    <li><a href="/common/conversion"><em class="ti ti-stats-up"></em>Conversion Tool</a></li>
                 </ul><!-- .user-icon-nav -->
                 <div class="user-sidebar-sap"></div><!-- .user-sidebar-sap -->
                 <ul class="user-nav">
@@ -219,7 +218,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <span class="footer-copyright">Copyright 2019, <a href="#">Scroda</a>.  All Rights Reserved.</span>
+                <span class="footer-copyright">Copyright 2019, Scroda Platform Ltd.  All Rights Reserved.</span>
             </div><!-- .col -->
             <div class="col-md-5 text-md-right">
                 <ul class="footer-links">
