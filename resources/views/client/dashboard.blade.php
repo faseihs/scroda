@@ -505,7 +505,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="tranx-popup">
-                    <h5>Purchase Details XMR</h5>
+                    <h5>Purchase Details Monero</h5>
                     <form action="">
                         <input id="selectedCC" name="selectedCC" value="" type="hidden">
                         <div class="tranx-payment-details">
@@ -513,7 +513,7 @@
                             {{--@if(!Auth::user()->address && !Auth::user()->addressRequest)--}}
                             @if(! Auth::user()->findAddress(Auth::user()->id,'MON'))
                                 <div style="margin-top: 16px;" class="col-md-12 text-center MON">
-                                    <a class="btn btn-secondary btn-block" href="/client/address-request/USD"><i class="ti ti-envelope"></i> Request your Address </a>
+                                    <a class="btn btn-secondary btn-block" href="/client/address-request/MON"><i class="ti ti-envelope"></i> Request your Address </a>
                                 </div>
                                 <hr>
                             @endif
@@ -554,8 +554,8 @@
                             <p>Hi, please click below in order to request a unique Dash address in which you can send your payment to.</p>
                             {{--@if(!Auth::user()->address && !Auth::user()->addressRequest)--}}
                             @if(! Auth::user()->findAddress(Auth::user()->id,'DAS'))
-                                <div style="margin-top: 16px;" class="col-md-12 text-center ETH">
-                                    <a class="btn btn-secondary btn-block" href="/client/address-request/USD"><i class="ti ti-envelope"></i> Request your Address </a>
+                                <div style="margin-top: 16px;" class="col-md-12 text-center DAS">
+                                    <a class="btn btn-secondary btn-block" href="/client/address-request/DAS"><i class="ti ti-envelope"></i> Request your Address </a>
                                 </div>
                                 <hr>
                             @endif

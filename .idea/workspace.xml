@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7229c909-fc2b-4776-bc49-f093c06ce247" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -29,17 +29,67 @@
       <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="1150">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Address.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Address.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/Address.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="361">
               <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome_new.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome_new.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="226" column="82" selection-start-line="226" selection-start-column="82" selection-end-line="226" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Client/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clients.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/clients.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/client/dashboard.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="515" column="108" selection-start-line="515" selection-start-column="108" selection-end-line="515" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -138,8 +188,8 @@
         <option value="$PROJECT_DIR$/app/Notifications/VerifyEmail.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome_new.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/client_new.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/app/Model/Address.php" />
+        <option value="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" />
       </list>
     </option>
   </component>
@@ -271,6 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +354,22 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scroda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroda" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scroda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scroda" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scroda" type="b2602c69:ProjectViewProjectNode" />
@@ -420,11 +487,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Use&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;.en&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/.env&#10;das&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;User.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;welcom&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/welcome.blade.php&#10;wel&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;clie&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Addr&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;Addres&#9;null&#9;null&#10;add&#9;null&#9;null&#10;create_c&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2019_01_08_061749_create_cryptocurrencies_table.php&#10;we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;Verify&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;web.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;showReset&#9;null&#9;null&#10;tokens&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;tokens.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;cli&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Reg&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Http/Controllers/Auth/RegisterController.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;we&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/welcome_new.blade.php&#10;Use&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;User&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;.en&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/.env&#10;das&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;User.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/User.php&#10;welcom&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/welcome.blade.php&#10;wel&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/wel.blade.php&#10;dash&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;clie&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Addr&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Model/Address.php&#10;Addres&#9;null&#9;null&#10;add&#9;null&#9;null&#10;create_c&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2019_01_08_061749_create_cryptocurrencies_table.php&#10;Verify&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php&#10;client&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;web.p&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;web.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;showReset&#9;null&#9;null&#10;tokens&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;tokens.&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/theme/dashboard/tokens.html&#10;cli&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;Reg&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/app/Http/Controllers/Auth/RegisterController.php&#10;admin&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/admin.blade.php&#10;clien&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/layouts/client.blade.php&#10;conv&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/common/conversion.blade.php&#10;create_ad&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_194637_create_addresses_table.php&#10;dashb&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/client/dashboard.blade.php&#10;w&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/routes/web.php&#10;add_st&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/database/migrations/2018_12_12_210103_add_status_to_addresses.php&#10;regis&#9;FILE&#9;file://C:/xampp7/htdocs/fiverr/scroda/resources/views/auth/register.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -472,15 +538,16 @@
       <workItem from="1547925170512" duration="2023000" />
       <workItem from="1548098351343" duration="5276000" />
       <workItem from="1548137913445" duration="420000" />
-      <workItem from="1548321216766" duration="228000" />
+      <workItem from="1548321216766" duration="403000" />
+      <workItem from="1548344673666" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54555000" />
+    <option name="totallyTimeSpent" value="54820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,7 +557,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.38961038" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30257186" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -688,9 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/clients.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -702,13 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2530">
           <caret line="110" column="409" selection-start-line="110" selection-start-column="409" selection-end-line="110" selection-end-column="409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Client/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -736,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -761,13 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5198">
-          <caret line="226" column="82" selection-start-line="226" selection-start-column="82" selection-end-line="226" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -796,9 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1472">
           <caret line="68" column="5" selection-start-line="65" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="e#26#48#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,16 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-          <folding>
-            <element signature="e#35#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome_new.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35006">
-          <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
         </state>
       </provider>
     </entry>
@@ -823,13 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5520">
           <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/client/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3979">
-          <caret line="173" column="28" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -843,21 +866,59 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="1150">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="361">
           <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome_new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="226" column="82" selection-start-line="226" selection-start-column="82" selection-end-line="226" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Client/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/clients.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/client/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="515" column="108" selection-start-line="515" selection-start-column="108" selection-end-line="515" selection-end-column="108" />
         </state>
       </provider>
     </entry>
