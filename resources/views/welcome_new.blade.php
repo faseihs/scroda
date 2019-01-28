@@ -96,7 +96,7 @@
                             </form>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="signup">
-                            <form method="POST" action="{{route('register')}}">
+                            <form method="POST" onsubmit="return regFunc()" action="{{route('register')}}">
                                 @csrf
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Username</label>
@@ -108,11 +108,14 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Password</label>
-                                    <input name="password" required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <input name="password" required type="password" class="form-control" id="regPassword" placeholder="Password">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Repeat Password</label>
-                                    <input name="password_confirmation" required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <input name="password_confirmation" required type="password" class="form-control" id="regPasswordConfirm" placeholder="Password">
+                                </div>
+                                <div id="passwordNotMatch" style="display: none" class="form-group">
+                                    <smal><div class="alert alert-danger">Password don't match</div></smal>
                                 </div>
                                 <div class="form-group">
                                     <label class="checkboxes">
@@ -1515,6 +1518,16 @@
             changeColor(".show-dapps", ["#0d98ba", "#3350FE"], 1500);
         });*/
     });
+    function regFunc(){
+        var password= $('#regPassword').val();
+        var passwordConfirm= $('#regPasswordConfirm').val();
+        if(password===passwordConfirm)
+            return true;
+        else {
+            $('#passwordNotMatch').show();
+            return false;
+        }
+    }
 </script>
 
 </body>
